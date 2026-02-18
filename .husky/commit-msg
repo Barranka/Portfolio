@@ -1,0 +1,8 @@
+#!/bin/sh
+
+commit_msg=$(cat "$1")
+
+if ! echo "$commit_msg" | grep -qE '^(feat|fix|refactor|style|docs):'; then
+  echo "❌ Commit message must start with: feat|fix|refactor|style|docs:"
+  exit 1
+fi
