@@ -8,12 +8,10 @@ on:
 
 jobs:
   quality:
-    name: Lint · Typecheck · Test · Build
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -34,4 +32,9 @@ jobs:
         run: npm run test:unit
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --mode=ci
+
+      - name: Lighthouse CI
+        run: |
+          npm install -g @lhci/cli
+          lhci autorun
