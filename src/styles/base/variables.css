@@ -1,0 +1,29 @@
+:root {
+  --container-width: 1120px;
+  --container-padding-mobile: 16px;
+  --container-padding-desktop: 24px;
+
+  --header-padding-y: 16px;
+  --header-gap-mobile: 12px;
+
+  --footer-padding-y: 40px;
+
+  --section-gap: 120px;
+
+  /* THEME */
+  /* Base */
+  --color-bg: #ffffff;
+  --color-bg-muted: #f8f9fb;
+
+  /* Text */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-text-muted: #9ca3af;
+
+  /* Accent */
+  --color-accent: #6366f1;
+  --color-accent-hover: #4f46e5;
+
+  /* Borders */
+  --color-border: #e5e7eb;
+}
