@@ -1,11 +1,18 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>Обо мне</h1>
+  <!-- <ul>
+    Моя ценность — не только «красивые экраны», а:
+    <li>Мышление.</li>
+    <li>Опыт принятия решений.</li>
+    <li>Работа со сложными системами.</li>
+    <li>Ответственность за продукт.</li>
+    <li>Думаю про поддержку кода через год, а не только про «сдать фичу».</li>
+    <li>Умею задавать вопросы бизнесу.</li>
+    <li>Не боюсь легаси.</li>
+    <li>Люблю порядок в коде и документацию.</li>
+  </ul> -->
 </template>
+
+<script setup lang="ts"></script>
 
 <style scoped></style>
