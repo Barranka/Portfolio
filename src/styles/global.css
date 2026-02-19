@@ -10,3 +10,10 @@ a {
 a:hover {
   color: var(--color-accent-hover);
 }
+
+.divider {
+  width: 64px;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin: 16px 0 32px 0;
+}

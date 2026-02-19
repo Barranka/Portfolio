@@ -3,11 +3,11 @@
     <AppHeader />
 
     <AppLayout>
-      <HeroSection />
-      <AboutSection />
-      <ExperienceSection />
-      <TechStackSection />
-      <ContactsSection />
+      <IntroScreen />
+      <ValueScreen />
+      <TimelineScreen />
+      <StatsScreen />
+      <CtaScreen />
     </AppLayout>
 
     <AppFooter />
@@ -19,11 +19,11 @@ import AppLayout from '@/components/layout/AppLayout.vue'
 import AppHeader from '@/components/layout/AppHeader.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
 
-import HeroSection from '@/components/sections/HeroSection.vue'
-import AboutSection from '@/components/sections/AboutSection.vue'
-import ExperienceSection from '@/components/sections/ExperienceSection.vue'
-import TechStackSection from '@/components/sections/TechStackSection.vue'
-import ContactsSection from '@/components/sections/ContactsSection.vue'
+import IntroScreen from '@/components/sections/IntroScreen.vue'
+import ValueScreen from '@/components/sections/ValueScreen.vue'
+import TimelineScreen from '@/components/sections/TimelineScreen.vue'
+import StatsScreen from '@/components/sections/StatsScreen.vue'
+import CtaScreen from '@/components/sections/CtaScreen.vue'
 </script>
 
 <style scoped>

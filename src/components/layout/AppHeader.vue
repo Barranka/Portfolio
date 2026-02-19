@@ -4,7 +4,6 @@
       <div class="logo">Ekaterina Komarova</div>
       <nav class="nav">
         <a href="#about">About</a>
-        <a href="#experience">Experience</a>
         <a href="#stack">Stack</a>
         <a href="#contacts">Contacts</a>
       </nav>
