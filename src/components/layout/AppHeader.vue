@@ -3,9 +3,9 @@
     <div class="container header-inner">
       <div class="logo">Ekaterina Komarova</div>
       <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#stack">Stack</a>
-        <a href="#contacts">Contacts</a>
+        <RouterLink to="/">Обо мне</RouterLink>
+        <!-- <RouterLink to="/stack">Стек</RouterLink> -->
+        <RouterLink to="/contact">Контакты</RouterLink>
       </nav>
     </div>
   </header>
@@ -41,6 +41,10 @@
 }
 
 .nav a:hover {
+  color: var(--color-accent);
+}
+
+.nav .router-link-active {
   color: var(--color-accent);
 }
 

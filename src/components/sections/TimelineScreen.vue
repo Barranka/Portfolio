@@ -7,7 +7,7 @@
           <div class="content">
             <span class="period">2021–2023</span>
             <strong>РЖД</strong>
-            <span class="desc">Крупная система · 19 000+ компаний</span>
+            <span class="desc">Крупная система · 19 000+ компаний</span>
           </div>
         </li>
 
@@ -25,7 +25,7 @@
           <div class="content">
             <span class="period">2024–2025</span>
             <strong>Киберпротект</strong>
-            <span class="desc">UI‑Kit · Миграция Vue 2 → Vue 3 · Лидирование</span>
+            <span class="desc">UI-Kit · Миграция Vue 2 → Vue 3 · Лидирование</span>
           </div>
         </li>
 
@@ -34,7 +34,7 @@
           <div class="content">
             <span class="period">2025–2026</span>
             <strong>Проектная работа</strong>
-            <span class="desc">Admin panel · E‑commerce · Production support</span>
+            <span class="desc">Admin panel · E-commerce · Production support</span>
           </div>
         </li>
       </ul>
@@ -85,7 +85,7 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
 
 .screen.is-active .list li {
   animation: itemIn 0.5s ease-out forwards;
-  animation-delay: calc(0.3s + var(--i) * 0.15s);
+  animation-delay: calc(0.8s + var(--i) * 0.15s);
 }
 
 .dot {

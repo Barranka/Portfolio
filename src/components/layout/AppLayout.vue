@@ -6,7 +6,7 @@
 
 <style scoped>
 .layout {
-  height: 100svh;
+  flex: 1;
   overflow-y: auto;
   scroll-snap-type: y mandatory;
 }
