@@ -41,7 +41,8 @@ onMounted(() => {
 
 <style scoped>
 .screen {
-  min-height: 100svh;
+  height: 100%;
+  min-height: 100%;
   display: flex;
   align-items: center;
   scroll-snap-align: start;
@@ -51,6 +52,10 @@ onMounted(() => {
   transition:
     opacity 0.4s ease,
     transform 0.4s ease;
+}
+
+.center {
+  justify-content: center;
 }
 
 .screen.is-active {
