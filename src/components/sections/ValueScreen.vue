@@ -1,7 +1,7 @@
 <template>
   <BaseScreen>
     <div class="value">
-      <p class="lead">Моя ценность — не только в «красивых экранах»</p>
+      <p class="title">Моя ценность — не только в «красивых экранах»</p>
 
       <div class="divider" />
 
@@ -27,7 +27,7 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
   margin: 0 auto;
 }
 
-.lead {
+.title {
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 16px;
