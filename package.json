@@ -12,6 +12,7 @@
     "type-check": "vue-tsc --build",
     "lint": "oxlint .",
     "lint:fix": "oxlint . --fix",
+    "check": "npm run lint && npm run type-check && npm run test:unit",
     "format": "prettier --write src",
     "prepare": "husky"
   },

@@ -6,8 +6,8 @@
 
 <style scoped>
 .layout {
-  display: flex;
-  flex-direction: column;
-  gap: var(--section-gap);
+  height: 100svh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
 }
 </style>
