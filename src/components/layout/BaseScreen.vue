@@ -62,4 +62,10 @@ onMounted(() => {
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+  .screen {
+    padding: 0 18px;
+  }
+}
 </style>

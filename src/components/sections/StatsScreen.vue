@@ -15,14 +15,6 @@
               и UX влияют на восприятие продукта.
             </p>
           </div>
-
-          <div class="meta">
-            <span class="teaser">Что я чувствовала в начале</span>
-            <div class="hint">
-              Начало пути и было непросто, но именно здесь появилось внимание к деталям и желание
-              делать качественно.
-            </div>
-          </div>
         </div>
 
         <div class="card">
@@ -33,14 +25,6 @@
               Работа с бизнес‑логикой, состоянием приложения, API, производительностью и качеством
               пользовательского опыта.
             </p>
-          </div>
-
-          <div class="meta">
-            <span class="teaser">Как менялись ощущения</span>
-            <div class="hint">
-              Появилось ощущение ответственности: не просто «сделать», а понять — зачем, для кого и
-              как это будет жить дальше.
-            </div>
           </div>
         </div>
 
@@ -53,13 +37,6 @@
               развитие легаси‑кода, рефакторинг и долгосрочное сопровождение систем.
             </p>
           </div>
-
-          <div class="meta">
-            <span class="teaser">С какими сложностями столкнулась</span>
-            <div class="hint">
-              Начала мыслить системно — код как часть живого продукта, а не набор фич.
-            </div>
-          </div>
         </div>
 
         <div class="card">
@@ -71,17 +48,9 @@
               технических и менеджерских вопросов.
             </p>
             <p>
-              Лидирование миграции Vue 2 → Vue 3: планирование, ведение бэклога, декомпозиция и
+              Лидирование миграции Vue 2 → Vue 3: планирование, ведение бэклога, декомпозиция и
               приоритизация задач, координация процессов и ответственность за результат.
             </p>
-          </div>
-
-          <div class="meta">
-            <span class="teaser">К чему я в итоге пришла</span>
-            <div class="hint">
-              Важнее всего стало не «сделать самой», а помочь команде принять правильные решения и
-              довести работу до результата.
-            </div>
           </div>
         </div>
       </div>
@@ -108,7 +77,7 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 24px;
 }
 
@@ -151,34 +120,6 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
   margin-top: 12px;
 }
 
-/* === META ZONE === */
-.meta {
-  margin-top: 16px;
-}
-
-/* === TEASER (всегда виден) === */
-.teaser {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-
-  font-size: 13px;
-  color: var(--color-text-tertiary);
-  opacity: 0.7;
-
-  cursor: default;
-  transition: opacity 0.2s ease;
-}
-
-/* иконка-подсказка */
-.teaser::after {
-  content: '⤵';
-  font-size: 12px;
-  opacity: 0.6;
-  transform: translateY(-1px);
-  transition: opacity 0.2s ease;
-}
-
 /* === HINT (раскрывается) === */
 .hint {
   margin-top: 8px;
@@ -201,10 +142,6 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
 }
 
 /* === HOVER LOGIC === */
-.card:hover .teaser {
-  opacity: 0.35;
-}
-
 .card:hover .hint {
   max-height: 200px;
   opacity: 1;

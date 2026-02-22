@@ -3,7 +3,7 @@
     <div class="intro">
       <h1 class="title">
         Я делаю интерфейсы,<br />
-        которые <span class="accent">важны</span>
+        которые мне <span class="accent">важны</span>
       </h1>
 
       <p class="subtitle">Vue • TypeScript • продуктовый подход</p>
