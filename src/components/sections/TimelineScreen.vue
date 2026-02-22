@@ -1,13 +1,17 @@
 <template>
   <BaseScreen>
     <div class="timeline">
+      <h2 class="title">Мой путь</h2>
+
+      <div class="divider" />
+
       <ul class="list">
         <li style="--i: 1">
           <span class="dot" />
           <div class="content">
             <span class="period">2021–2023</span>
-            <strong>РЖД</strong>
-            <span class="desc">Крупная система · 19 000+ компаний</span>
+            <strong>РЖД - Грузовые перевозки</strong>
+            <span class="desc">Крупная система · Личный кабинет · 19 000+ компаний</span>
           </div>
         </li>
 
@@ -16,7 +20,7 @@
           <div class="content">
             <span class="period">2023–2024</span>
             <strong>Сбер</strong>
-            <span class="desc">Enterprise · Интеграции · CI/CD · Тесты</span>
+            <span class="desc">Внутренняя система · Интеграции · CI/CD · Тесты</span>
           </div>
         </li>
 
@@ -34,7 +38,7 @@
           <div class="content">
             <span class="period">2025–2026</span>
             <strong>Проектная работа</strong>
-            <span class="desc">Admin panel · E-commerce · Production support</span>
+            <span class="desc">Admin‑панель · Работа с заказами · Поддержка приложения</span>
           </div>
         </li>
       </ul>
@@ -50,6 +54,13 @@ import BaseScreen from '@/components/layout/BaseScreen.vue'
 .timeline {
   max-width: 720px;
   margin: 0 auto;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  color: var(--color-text-primary);
 }
 
 .list {
