@@ -6,7 +6,7 @@
         <RouterLink to="/">Обо мне</RouterLink>
         <RouterLink to="/contact">Контакты</RouterLink>
 
-        <a :href="`${baseUrl}Komarova_CV_Frontend_2026.pdf`" download class="resume-link">
+        <a :href="`${baseUrl}Komarova_Frontend_Developer_2026.pdf`" download class="resume-link">
           Скачать резюме
           <span class="arrow">↓</span>
         </a>
